@@ -57,7 +57,7 @@ public class Ej3Guia8Main {
                     System.out.println("Se muestra la primer coincidencia:");
                     System.out.println("Nombre: " + elemento.getNombre());
                     System.out.println("Notas [nota1,nota2,nota3]: " + (elemento.getNotas().toString()));
-                    System.out.println("Promedio final: " + (double) Math.round(elemento.notaFinal() * 100) / 100);
+                    System.out.println("Nota final: " + elemento.notaFinal());
                     System.out.println("---------------------------------");
                     encontro = true;
                 }

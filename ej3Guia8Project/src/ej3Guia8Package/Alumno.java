@@ -50,7 +50,7 @@ public class Alumno {
             suma+=iterator1.next();
             contador++;
         }
-        return suma/contador;   
+        return (double)Math.round((suma/contador) * 100) / 100;   
     }
     
 }
