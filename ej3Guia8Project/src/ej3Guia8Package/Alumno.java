@@ -42,7 +42,7 @@ public class Alumno {
         Dentro del método se usará la lista notas para calcular el promedio final de alumno.
         Siendo este promedio final, devuelto por el método y mostrado en el main*/
     public double notaFinal(){
-        Iterator<Integer> iterator1=listaNotas.iterator();
+        Iterator<Integer> iterator1=this.listaNotas.iterator();
         double contador=0;
         double suma=0;
         
